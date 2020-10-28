@@ -1,3 +1,13 @@
 "use strict";
 
-console.log(2+2 !== '4');
+const numberOfFilms = prompt('Сколько фильмов ты уже посмотрел?', ''),
+    personalMovieDB = {
+        count: numberOfFilms,
+        movies: {},
+        actors: {},
+        genres: [],
+        privat: false
+    }
+
+
+console.log(numberOfFilms);
